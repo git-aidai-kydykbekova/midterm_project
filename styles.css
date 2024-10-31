@@ -104,10 +104,49 @@ body {
     font-size: 14px;
     transition: background-color 0.3s;
     position: relative;
-
+    z-index: 2;
 }
 
 
 .media-kit-btn:hover {
     background-color: rgba(67, 198, 172, 1);
 }
+
+
+
+.left-section {
+    position: relative;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    max-height: 500px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.left-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.left-section h1, .left-section p {
+    position: relative;
+    z-index: 2;
+}
+.date {
+    color: grey;
+    font-size: 14px;
+}
+
