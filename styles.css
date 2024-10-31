@@ -92,3 +92,22 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+.media-kit-btn {
+    display: flex;
+    align-items: center;
+    background-color: rgba(67, 198, 172, 0.7);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    position: relative;
+
+}
+
+
+.media-kit-btn:hover {
+    background-color: rgba(67, 198, 172, 1);
+}
