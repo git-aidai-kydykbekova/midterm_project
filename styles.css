@@ -83,3 +83,12 @@ body {
     font-size: 14px;
 }
 
+.right-section {
+    width: 60%;
+    padding: 20px;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
