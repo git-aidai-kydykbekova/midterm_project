@@ -53,5 +53,5 @@
 
 ## Автор
 
-Ваше Имя - [ваш контакт или профиль на GitHub](https://github.com/yourusername)
+Ваше Имя - [ваш контакт или профиль на GitHub](https://github.com/git-aidai-kydykbekova)
 
